@@ -18,20 +18,25 @@ nav {
     background-color: var(--color-primary);
 }
 
-a.active {
+nav a.active {
     color: var(--color-secondary);
 }
 
 .masthead {
     height: 50vh;
     min-height: 500px;
-    background-image: url('../images/rbanner.jpeg');
+    background-image: url('../images/productsBanner.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: var(--color-light);
+    color: var(--color-dark);
   }
 
 h2 {
     text-align: center;
 }
+
+footer{
+    background-color: var(--color-tertiary);
+}
+
