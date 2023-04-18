@@ -22,7 +22,7 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html"><i class="bi bi-house-heart-fill"></i> Home</a>
             <a class="navbar-brand" href="products.html"><i class="bi bi-handbag"></i> Products</a>
-            <a class="navbar-brand active" href="signup.html"><i class="bi bi-clipboard2-check"></i> Sign Up</a>
+            <a class="navbar-brand active" href="#"><i class="bi bi-clipboard2-check"></i> Sign Up</a>
             <a class="navbar-brand" href="login.html"><i class="bi bi-box-arrow-in-right"></i> Login</a>
             <a class="navbar-brand" href="checkout.html"><i class="bi bi-cart4"></i> Cart</a>
         </div>
@@ -30,7 +30,71 @@
 
     <main>
 
-        <h2>Test paragraph</h2>
+        <h2>Sign Up</h2>
+        
+        <!-- Sign Up Form -->
+        <div class="container">
+            <form class="row g-3 mt-4">
+                <div class="col-md-6">
+                    <label for="inputFirstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="inputFirstName" placeholder="Jane">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputLastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="inputLast Name" placeholder="Doe">
+                </div>
+                <div class="col-12">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="name@example.com">
+                </div>
+                <div class="col-12">
+                    <label for="inputPassword4" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div id="passwordHelpBlock" class="form-text">
+                    Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                </div>
+                <div class="col-12">
+                    <label for="inputPassword4" class="form-label">Confirm Password</label>
+                    <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <label class="form-label">How did you hear about us?</label>
+                <fieldset class="row mb-3">
+                    <div class="col-sm-10">
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          Family/Friends
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                        <label class="form-check-label" for="gridRadios2">
+                          Social Media
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+                        <label class="form-check-label" for="gridRadios3">
+                          Other
+                        </label>
+                      </div>
+                    </div>
+                </fieldset>
+
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      I would prefer to receive marketing emails from...
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12 mb-3">
+                    <button type="submit" class="btn btn-primary">Sign Up</button>
+                </div>
+              </form>
+        </div>
 
     </main>
 

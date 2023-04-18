@@ -1,4 +1,4 @@
-:root{
+:root {
     --color-primary:#606C38;
     --color-secondary: #BC6C25;
     --color-tertiary: #DDA15E;
@@ -6,19 +6,19 @@
     --color-light: #FEFAE0;
 }
 
-body{
+body {
     background-color: var(--color-light);
 }
 
-header{
+header {
     text-align: center;
 }
 
-nav{
+nav {
     background-color: var(--color-primary);
 }
 
-a.active{
+a.active {
     color: var(--color-secondary);
 }
 
@@ -31,3 +31,7 @@ a.active{
     background-repeat: no-repeat;
     color: var(--color-light);
   }
+
+h2 {
+    text-align: center;
+}
