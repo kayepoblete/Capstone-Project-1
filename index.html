@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
+    <title>Knots | Knitted & Crocheted Clothing and Items</title>
 
     <!-- Add external CSS file -->
     <link rel="stylesheet" href="css/style.css">
@@ -17,79 +17,102 @@
 </head>
 <body>
     <!-- Header -->
-    <header><h1>Name</h1></header>
+    <!-- <header><a href="index.html"><img src="images/headerLogo.png" alt=""></a></header> -->
 
-    <!-- Navigation bar -->
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg sticky-top">
-        <div class="container-fluid">
-            <a class="navbar-brand active" href="#"><i class="bi bi-house-heart-fill"></i> Home</a>
-            <a class="navbar-brand" href="products.html"><i class="bi bi-handbag"></i> Products</a>
-            <a class="navbar-brand" href="signup.html"><i class="bi bi-clipboard2-check"></i> Sign Up</a>
-            <a class="navbar-brand" href="login.html"><i class="bi bi-box-arrow-in-right"></i> Login</a>
-            <a class="navbar-brand" href="checkout.html"><i class="bi bi-cart4"></i> Checkout</a>
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#">Logo here</a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="signup.html">Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="checkout.html"><i class="bi bi-cart4"></i> Checkout</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-dark btn-outline-light" type="submit">Search</button>
+          </form>
         </div>
-      </nav>
+      </div>
+    </nav>
 
     <!-- Image, 2 paragraphs, 2 items list -->
-    <main class="container-fluid">
-        <!-- Main Page Carousel -->
-        <div id="carouselMain" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <main>
+      <!-- Carousel -->
+      <div id="carouselMain" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselMain" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/carousel01.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
             </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="images/carousel01.jpeg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Some representative placeholder content for the first slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="images/carousel02.jpeg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <img src="images/carousel03.jpeg" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselMain" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselMain" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
-        <!-- Paragraphs -->
-        <div class="container-fluid">
-            <div id class="row mt-4">
-                <div class="col"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate nesciunt, a autem commodi ex necessitatibus, esse accusamus, ipsa enim in aliquam quod sint soluta dignissimos dolorem nihil doloremque reprehenderit minima? Accusamus recusandae numquam modi distinctio officia impedit maiores earum voluptate corrupti? Eius temporibus modi repudiandae, tempora quibusdam facere delectus dolor.</p></div>
-                <div class="col"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non ratione eum quisquam ipsum expedita exercitationem nisi, mollitia voluptates vel quam optio nihil quidem eaque quia nemo quos veniam eveniet laudantium sunt? Aspernatur eos maxime cum, impedit asperiores porro aperiam perspiciatis cumque deserunt blanditiis dolorem at laborum cupiditate, quam eveniet autem!</p>
+          <div class="carousel-item">
+            <img src="images/carousel02.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
             </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/carousel03.jpeg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselMain" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselMain" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+      <!-- Paragraphs -->
+      <div class="container-fluid">
+        <div id class="row mt-4">
+          <div class="col-md-4"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, doloremque.</p></div>
+            <div class="col-md-4"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, officiis!</p></div>
+            <div class="col-md-4"><ul><li>1</li><li>2</li><li>3</li></ul></div>
+          </div>
         </div>
+      </div>
     </main>
 
     <!-- Footer -->
     <footer class="text-center text-lg-start text-muted">
       <!-- Section: Links  -->
-      <section class="p-2">
+      <section class="p-1">
       <div class="container text-center text-md-start mt-5">
         <!-- Grid row -->
-        <div class="row mt-3">
+        <div class="row mt-2">
           <!-- Grid column -->
-          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
             <!-- Content -->
             <h6 class="text-uppercase fw-bold mb-4">
               <i class="fas fa-gem me-3"></i>Company name
@@ -101,29 +124,18 @@
           </div>
 
           <!-- Grid column -->
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
-            <p><a href="#!" class="text-reset">Products</a></p>
-            <p><a href="#!" class="text-reset">Sign Up</a></p>
-            <p><a href="#!" class="text-reset">Log In</a></p>
-            <p><a href="#!" class="text-reset">Help</a></p>
-          </div>
-
-          <!-- Grid column -->
-          <div id="socialLinks" class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <div id="socialLinks" class="col-md-4 col-lg-2 col-xl-2 mx-auto mb-4">
             <!-- Social Media Links -->
-            <h6 class="text-uppercase fw-bold mb-4">Connect with us!</h6>
-            <p><a href="" class="me-4 text-decoration-none" target="_blank"><i class="bi bi-facebook"></i> Facebook</a></p>
-            <p><a href="" class="me-4 text-decoration-none" target="_blank"><i class="bi bi-twitter"></i> Twitter</a></p>
-            <p><a href="" class="me-4 text-decoration-none" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></p>
-            <p><a href="https://github.com/kayepoblete" class="me-4 text-decoration-none" target="_blank"><i class="bi bi-github"></i> GitHub</a></p>
+            <h6 class="text-uppercase fw-bold mb-3">Connect</h6>
+            <p><a href="https://twitter.com/login?lang=en" class="me-4 text-decoration-none link-dark" target="_blank"><i class="bi bi-twitter"></i> Twitter</a></p>
+            <p><a href="https://www.instagram.com/accounts/login/" class="me-4 text-decoration-none link-dark" target="_blank"><i class="bi bi-instagram"></i> Instagram</a></p>
+            <p><a href="https://github.com/kayepoblete" class="me-4 text-decoration-none link-dark" target="_blank"><i class="bi bi-github"></i> GitHub</a></p>
           </div>
 
         <!-- Grid column -->
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <h6 class="text-uppercase fw-bold mb-3">Contact</h6>
             <p><i class="bi bi-building-fill"></i> Vallejo, CA 94591, US</p>
             <p><i class="bi bi-envelope-at-fill"></i> info@example.com</p>
             <p><i class="bi bi-telephone-inbound-fill"></i> + 01 555 555 5555</p>
@@ -133,7 +145,7 @@
       </section>
 
       <!-- Copyright -->
-      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
       © 2023 Kaye Poblete
       </div>
       <!-- Copyright -->

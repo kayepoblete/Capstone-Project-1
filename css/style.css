@@ -1,25 +1,40 @@
 :root {
-    --color-primary:#606C38;
-    --color-secondary: #BC6C25;
-    --color-tertiary: #DDA15E;
-    --color-dark: #283618;
-    --color-light: #FEFAE0;
+    --color-primary:#2A9D8F;
+    --color-secondary: #E76F51;
+    --color-tertiary: #E9C46A;
+    --color-dark: #264653;
+    --color-light: #F4A261;
 }
 
 body {
-    background-color: var(--color-light);
+    background-color: red;
 }
 
 header {
     text-align: center;
 }
 
+a:hover {
+    color: var(--color-tertiary) !important;
+}
+
 nav {
     background-color: var(--color-primary);
 }
 
-nav a.active {
+#navbarTogglerDemo01 {
+    font-size: large;
+    /* font-family: ; */
+}
+
+
+#navbarTogglerDemo01 a.active {
     color: var(--color-secondary);
+    font-weight: bold;
+}
+
+#carouselMain .carousel-item img {
+    height: 50vh;
 }
 
 .masthead {
@@ -37,6 +52,6 @@ h2 {
 }
 
 footer{
-    background-color: var(--color-tertiary);
+    background-color: var(--color-light);
 }
 
