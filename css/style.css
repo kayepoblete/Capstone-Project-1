@@ -1,3 +1,5 @@
+/* Developed by Kaye Poblete */
+
 :root {
     --color-primary:#2A9D8F;
     --color-secondary: #E76F51;
@@ -7,13 +9,14 @@
 }
 
 body {
-    background-color: red;
+    background-color: var(--color-tertiary);
 }
 
 header {
     text-align: center;
 }
 
+/* CSS for when hovering on links */
 a:hover {
     color: var(--color-tertiary) !important;
 }
@@ -22,21 +25,24 @@ nav {
     background-color: var(--color-primary);
 }
 
+/* CSS for navbar */
 #navbarTogglerDemo01 {
     font-size: large;
     /* font-family: ; */
 }
 
-
+/* Change color of navbar tab when actively on page */
 #navbarTogglerDemo01 a.active {
     color: var(--color-secondary);
     font-weight: bold;
 }
 
+/* CSS for carousel on Index page */
 #carouselMain .carousel-item img {
     height: 50vh;
 }
 
+/* CSS for image banner on Products page */
 .masthead {
     height: 50vh;
     min-height: 500px;
@@ -51,7 +57,26 @@ h2 {
     text-align: center;
 }
 
-footer{
+#middleImage {
+    background-image: url('/images/midPageImage.jpg');
+    background-size: 100% 100%;
+}
+
+.paragraphStyle {
+    padding: 10px 10px 10px 18px;
+    /* border-style: solid; */
     background-color: var(--color-light);
+}
+
+.bg-custom-form {
+    background-color: var(--color-tertiary);
+}
+
+.bg-custom-card {
+    background-color: var(--color-light);
+}
+
+footer{
+    background-color: var(--color-dark);
 }
 
