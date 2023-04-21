@@ -1,5 +1,6 @@
 /* Developed by Kaye Poblete */
 
+/* Color scheme */
 :root {
     --color-primary:#2A9D8F;
     --color-secondary: #E76F51;
@@ -8,15 +9,7 @@
     --color-light: #F4A261;
 }
 
-body {
-    background-color: var(--color-tertiary);
-}
-
-header {
-    text-align: center;
-}
-
-/* CSS for when hovering on links */
+/* Change color when hovering on links */
 a:hover {
     color: var(--color-tertiary) !important;
 }
@@ -28,7 +21,7 @@ nav {
 /* CSS for navbar */
 #navbarTogglerDemo01 {
     font-size: large;
-    /* font-family: ; */
+    font-family: Verdana, Helvetica, Tahoma, sans-serif;
 }
 
 /* Change color of navbar tab when actively on page */
@@ -37,7 +30,7 @@ nav {
     font-weight: bold;
 }
 
-/* CSS for carousel on Index page */
+/* Height of carousel on Index page */
 #carouselMain .carousel-item img {
     height: 76vh;
 }
@@ -57,6 +50,7 @@ h2 {
     text-align: center;
 }
 
+/* CSS for List on Index page */
 #whatsNewList {
     margin-top: -24px;
     padding-top: 5%;
@@ -65,7 +59,7 @@ h2 {
 }
 
 #whatsNewList li {
-    padding: 10px;
+    padding: 8px;
 }
 
 #carouselSlidesOnly img {
@@ -73,6 +67,12 @@ h2 {
     height: 525px;
 }
 
+/* Remove bullet point next to button */
+#listButton {
+    list-style: none;
+}
+
+/* CSS for paragraphs on Index page */
 .paragraphStyle {
     padding-top: 1%;
     background-color: var(--color-light);
@@ -84,15 +84,18 @@ h2 {
     margin-right: 15%;
 }
 
+/* Color for each form */
 .bg-custom-form {
     background-color: var(--color-tertiary);
     text-align: justify;
 }
 
+/* Dropdown button on Products page */
 #productsDropdown {
     margin-left: 86%;
 }
 
+/* CSS for cards on Products page */
 .bg-custom-card {
     background-color: var(--color-light);
 }
@@ -109,6 +112,7 @@ h2 {
     cursor: pointer;
 }
 
+/* CSS for when hovering over cards */
 .card:hover {
     box-shadow: 5px 6px 6px 2px #e9ecef;
     transform: scale(1.1)
