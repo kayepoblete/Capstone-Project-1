@@ -16,19 +16,19 @@ Built an E-Commerce website using HTML, CSS, JavaScript, and Bootstrap.
 ## Page Views
 
 Index Page View:
-![My Image](images/indexpageview-941x659.jpg)
+![My Image](images/indexpageview-941x659.png)
 
 Products Page View:
-![My Image](images/productspageview-941x659.jpg)
+![My Image](images/productspageview-941x659.png)
 
 Sign Up Page:
-![My Image](images/signuppageview-941x659.jpg)
+![My Image](images/signuppageview-941x659.png)
 
 Log In Page View:
-![My Image](images/loginpageview-941x659.jpg)
+![My Image](images/loginpageview-941x659.png)
 
 Checkout Page View:
-![My Image](images/checkoutpageview-941x659.jpg)
+![My Image](images/checkoutpageview-941x659.png)
 
 ## Usage/Examples
 
