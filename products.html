@@ -2,10 +2,11 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <title>Knots | Knitted & Crocheted Clothing and Items</title>
 
     <!-- Add external CSS file -->
@@ -14,11 +15,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!-- Bootstrap ICONS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-</head>
-<body>
-    <!-- Header -->
-    <header><h1>Knots</h1></header>
-
+  </head>
+  <body>
     <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg sticky-top">
       <div class="container-fluid">
@@ -26,7 +24,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-          <a class="navbar-brand" href="#">Logo here</a>
+          <a class="navbar-brand" href="index.html"><img src="images/navLogo.png" alt="Knots Logo"></a>
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="index.html">Home</a>
@@ -71,80 +69,94 @@
         <hr>
       </div>
 
+      <div class="container">
+        <div class="dropdown">
+          <button class="btn btn-light btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            Sort by
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Best sellers</a></li>
+            <li><a class="dropdown-item" href="#">Newest</a></li>
+            <li><a class="dropdown-item" href="#">Price <i class="bi bi-arrow-up"></i></a></li>
+            <li><a class="dropdown-item" href="#">Price <i class="bi bi-arrow-down"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
       <!-- Prodcuts display: 3 cards per row, 1 per row when small screen -->
       <div class="container-xxl g-md-2 mb-5">
-        <div class="row g-2 mb-2">
+        <div class="row gy-2 mt-4 mb-2">
           <div class="col-lg-4 col-xs-12">
             <div class="card">
               <img src="images/card01-dl.jpg"
-                class="card-img-top" alt="...">
+                class="card-img-top" alt="A beige sweater.">
               <div class="card-body bg-custom-card">
                 <h5 class="card-title">Beige Sweater</h5>
-                <p class="card-text">Description</p>
+                <p class="card-text">Made with soft yarn in a neutral beige color.</p>
                 <p class="card-text">$59.99</p>
-                <a href="#" class="btn btn-primary">Add to cart</a>
+                <a href="#" class="btn btn-warning">Add to cart</a>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-xs-12">
             <div class="card">
               <img src="images/card02-dl.jpg"
-                class="card-img-top" alt="...">
+                class="card-img-top" alt="A tye-dyed sweater.">
               <div class="card-body bg-custom-card">
                 <h5 class="card-title">Tie-Dye Sweater</h5>
-                <p class="card-text">Description</p>
-                <p class="card-text">$59.99</p>
-                <a href="#" class="btn btn-primary">Add to cart</a>
+                <p class="card-text">Dyed in a colorful tie-dye pattern.</p>
+                <p class="card-text">$69.99</p>
+                <a href="#" class="btn btn-warning">Add to cart</a>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-xs-12">
             <div class="card">
               <img src="images/card03-dl.jpg"
-                class="card-img-top" alt="...">
+                class="card-img-top" alt="A crocheted dress.">
               <div class="card-body bg-custom-card">
                 <h5 class="card-title">Mini Dress</h5>
-                <p class="card-text">Description</p>
-                <p class="card-text">$59.99</p>
-                <a href="#" class="btn btn-primary">Add to cart</a>
+                <p class="card-text">Lightweight and perfect for warm weather.</p>
+                <p class="card-text">$79.99</p>
+                <a href="#" class="btn btn-warning">Add to cart</a>
               </div>
             </div>
           </div>
         </div>
-        <div class="row g-2 mb-2">
+        <div class="row gy-2 mb-2">
           <div class="col-lg-4 col-xs-12">
             <div class="card">
               <img src="images/card04-dl.jpg"
-                class="card-img-top" alt="...">
+                class="card-img-top" alt="A crocheted toy mouse.">
               <div class="card-body bg-custom-card">
                 <h5 class="card-title">Toy Mouse</h5>
-                <p class="card-text">Description</p>
-                <p class="card-text">$59.99</p>
-                <a href="#" class="btn btn-primary">Add to cart</a>
+                <p class="card-text">Made with soft materials, a whimsical gift.</p>
+                <p class="card-text">$19.99</p>
+                <a href="#" class="btn btn-warning">Add to cart</a>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-xs-12">
             <div class="card">
               <img src="images/card05-dl.jpg"
-                class="card-img-top" alt="...">
+                class="card-img-top" alt="A beach bag.">
               <div class="card-body bg-custom-card">
                 <h5 class="card-title">Beach Bag</h5>
-                <p class="card-text">Description</p>
-                <p class="card-text">$59.99</p>
-                <a href="#" class="btn btn-primary">Add to cart</a>
+                <p class="card-text">Spacious and sturdy bag.</p>
+                <p class="card-text">$49.99</p>
+                <a href="#" class="btn btn-warning">Add to cart</a>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-xs-12">
             <div class="card">
               <img src="images/card06-dl.jpg"
-                class="card-img-top" alt="...">
+                class="card-img-top" alt="A bucket hat.">
               <div class="card-body bg-custom-card">
                 <h5 class="card-title">Bucket Hat</h5>
-                <p class="card-text">Description</p>
-                <p class="card-text">$59.99</p>
-                <a href="#" class="btn btn-primary">Add to cart</a>
+                <p class="card-text"> Lightweight, comfortable, and breathable.</p>
+                <p class="card-text">$29.99</p>
+                <a href="#" class="btn btn-warning">Add to cart</a>
               </div>
             </div>
           </div>
@@ -161,14 +173,8 @@
         <div class="row mt-2">
           <!-- Grid column -->
           <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
-            <!-- Content -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              <i class="fas fa-gem me-3"></i>Company name
-            </h6>
-            <p>
-              Here you can use rows and columns to organize your footer content. Lorem ipsum
-              dolor sit amet, consectetur adipisicing elit.
-            </p>
+            <!-- Footer Logo -->
+            <img src="images/footerLogo.png" alt="Footer Logo">
           </div>
 
           <!-- Grid column -->
@@ -202,5 +208,5 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
