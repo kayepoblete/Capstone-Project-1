@@ -119,6 +119,12 @@ h2 {
 }
 
 footer{
+    width: 100%;
     background-color: var(--color-dark);
 }
 
+#footerImageLogo {
+    background-image: url("../images/footerLogo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
